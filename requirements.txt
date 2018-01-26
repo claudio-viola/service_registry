@@ -1,3 +1,4 @@
-django
-djangorestframework
-django-filter
+django=2.0.1
+djangorestframework=3.7.7
+behave-django
+behave
