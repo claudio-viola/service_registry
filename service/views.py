@@ -16,3 +16,6 @@ class ServicesCreate(APIView):
             service.status = 'created'
             service.save()
         return JsonResponse(serializer.data, status=201)
+
+    def get(self, request, format=None):
+        #TODO IMPLEMENT GET / parse req params
